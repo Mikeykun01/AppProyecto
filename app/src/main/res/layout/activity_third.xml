@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/socialtxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -51,7 +51,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/socialbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ir a red social" />
@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/emailtxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -80,7 +80,7 @@
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/emailbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mandar correo" />
@@ -97,13 +97,13 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/cambtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Camara" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/callbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Llamar al 911" />
